@@ -1,6 +1,4 @@
-Here’s a draft **README.md** for your Internet Measurements Analysis project—feel free to tweak paths, file names, or commands to match your repo layout:
 
-```markdown
 # Internet Measurements Analysis
 
 A traceroute-based study of internet path stability at both router and AS levels, with delay metrics.
