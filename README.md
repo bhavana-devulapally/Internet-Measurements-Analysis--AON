@@ -58,19 +58,19 @@ README.md                      # (this file)
 
 4. **Compile raw outputs**
 
-   ```bash
+  
    python traceroute-scripts/compile_traceroutes.py \
      --input-dir data/raw/2023-11-28 \
      --output data/processed/traceroute_all.csv
-   ```
+
 
 5. **Enrich with AS info**
 
-   ```bash
+ 
    python traceroute-scripts/enrich_as_info.py \
      --input data/processed/traceroute_all.csv \
      --output data/processed/traceroute_all_with_as.csv
-   ```
+
 
 6. **Generate plots & analysis**
    Open a Jupyter notebook or run your own analysis script to read the final CSV, compute:
