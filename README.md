@@ -37,22 +37,22 @@ README.md                      # (this file)
 ## ⚙️ Getting Started
 
 1. **Clone the repo**  
-   ```bash
+   
    git clone https://github.com/yourusername/internet-measurements.git
    cd internet-measurements
-````
+
 
 2. **Install dependencies**
 
-   ```bash
+
    pip install pandas matplotlib
-   ```
+  
 
 3. **Run traceroutes**
 
-   ```bash
+ 
    bash traceroute-scripts/run_traceroutes.sh
-   ```
+   
 
    * Adjust `destinations` and `measurements_per_destination` in the script as needed.
 
