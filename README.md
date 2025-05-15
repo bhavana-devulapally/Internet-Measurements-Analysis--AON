@@ -3,7 +3,7 @@
 
 A traceroute-based study of internet path stability at both router and AS levels, with delay metrics.
 
-## 🔍 Project Overview
+##  Project Overview
 This project automates end-to-end traceroute measurements to five major domains over five days, then analyzes:
 - **Router-level paths**: dominant routes, path similarity and change frequency  
 - **AS-level paths**: common AS sequences and their stability  
@@ -18,7 +18,7 @@ This project automates end-to-end traceroute measurements to five major domains 
 - **Visualization**: Matplotlib (latency vs. hop plots)  
 - **AS lookup**: Team Cymru WHOIS API  
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 
 /traceroute-scripts
@@ -34,7 +34,7 @@ README.md                      # (this file)
 
 ````
 
-## ⚙️ Getting Started
+##  Getting Started
 
 1. **Clone the repo**  
    
@@ -81,7 +81,7 @@ README.md                      # (this file)
    * Path Stability Index
    * And visualize latency vs. hop number
 
-## 🎯 Key Findings
+##  Key Findings
 
 * A single dominant IP path accounted for \~50% of runs to **amazon.com**
 * Higher hop counts show both increased average latency and greater variance
